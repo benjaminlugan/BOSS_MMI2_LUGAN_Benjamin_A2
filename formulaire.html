@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/normalize.css">
+</head>
+<header>
+    <div class="background3">
+        <div class="entete">
+            <div class="logo">
+                <a href="index.html"><img src="public/img/icons/logo.png" alt="Logo du site" width="70" height="70"></a>
+
+            </div>
+            <ul>
+                <li>
+                    <p>
+                        <a href="film.html">Film</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="albums.html">Albums</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="biographie.html">Biographie</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <h1>
+        Formulaire
+    </h1>
+    <h2>
+        Aidez-nous à détailler encore plus la biographie de Laylow !
+    </h2>
+    <div class="fleche-bas">
+        <img src="public/img/icons/fleche-bas.png" alt="Flèche Bas" width="60" height="60">
+    </div>
+</header>
+<body>
+
+<form method="post">
+    <section class="contacter">
+        <ul>
+            <li>
+                <label for="name"></label>
+                <input type="text" id="name" name="user_name" placeholder="Votre Nom"  />
+            </li>
+            <li>
+                <label for="mail"></label>
+                <input type="text" id="mail" name="user_name" placeholder="Votre Adresse-Mail" />
+            </li>
+            <li>
+                <label for="title"></label>
+                <i class="fas fa-asterisk"></i>
+                <input type="email" id="title" name="user_mail" placeholder="Titre de votre Publication"/>
+            </li>
+            <li>
+                <i class="message" ></i>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+        </ul>
+    </section>
+</form>
+<a href="formulaire.html"><button id="acces-formulaire" class="button">Envoyer</button></a>
+</body>
+<footer>
+    <h3>
+        Exercice réalisé dans le cadre pédagogique du département MMI Montbéliard
+    </h3>
+    <a href="http://mmimontbeliard.com/"><img src="public/img/icons/mmi.png" alt="Logo MMI" width="60" height="60"></a>
+</footer>
+</html>

@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #211F1F;
+}
+
+.logo {
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.background {
+    background-image: url("/public/img/desktop/laylow.png");
+}
+
+.background2 {
+    background: url("/public/img/desktop/laylow2.jpeg");
+}
+
+.background3 {
+    background-image: url("/public/img/desktop/laylow3.png");
+}
+
+.background4 {
+    background-image: url("/public/img/desktop/laylow4.png");
+}
+
+.background5 {
+    background-image: url("/public/img/desktop/laylow5.png");
+}
+
+.background, .background2, .background3, .background4, .background5 {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 0;
+    padding: 0;
+    border-radius:0 0 75px  0;
+}
+
+
+
+header>.background>.entete>ul, header>.background2>.entete>ul,
+header>.background3>.entete>ul, header>.background4>.entete>ul,
+header>.background5>.entete>ul{
+    margin-top: -5%;
+}
+
+header>h2 {
+    float: right;
+    font-family: Raleway;
+    color: white;
+    margin-top: 5%;
+    padding-left: 50%;
+    padding-right: 10%;
+}
+
+header>.background>.entete>ul>li, header>.background2>.entete>ul>li, header>.background3>.entete>ul>li,
+header>.background4>.entete>ul>li, header>.background5>.entete>ul>li {
+    list-style-type: none;
+    display:inline-block;
+    margin: 0 25px;
+    text-align: center;
+    float: right;
+}
+
+header>.background>.entete>ul>li>p>a, header>.background2>.entete>ul>li>p>a, header>.background3>.entete>ul>li>p>a,
+header>.background4>.entete>ul>li>p>a, header>.background5>.entete>ul>li>p>a,
+.biographie>h2, .biographie>h3,.albums>h2, .film>h2, .albums>h3, .film>h3  {
+    font-family: Raleway;
+    text-decoration: none;
+    color: white;
+    border: none;
+
+}
+
+header>.background>.entete>ul>li>p>a, header>.background2>.entete>ul>li>p>a,
+header>.background3>.entete>ul>li>p>a, header>.background4>.entete>ul>li>p>a,
+header>.background5>.entete>ul>li>p>a {
+    font-size: 35px;
+}
+
+header>h1 {
+    margin-top: -35%;
+    margin-left: 10%;
+    padding-right: 55%;
+    color: white;
+    font-size: 4.5em;
+    font-family: "Raleway";
+}
+
+.fleche-bas {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.biographie, .albums, .film {
+    height: 100vh;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 0;
+}
+
+.biographie {
+    background-image: url("/public/img/desktop/laylow2.jpeg");
+}
+
+.albums {
+    background-image: url("/public/img/desktop/laylow3.png");
+}
+
+.film {
+    background-image: url("/public/img/desktop/laylow5.png");
+}
+
+.biographie>h2, .albums>h2, .film>h2 {
+    font-size: 5em;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.biographie>h3, .albums>h3, .film>h3{
+    font-size: 1.5em;
+    float: right;
+    margin-right: 3%;
+    padding-left: 55%;
+    padding-top: 20%;
+}
+
+.biographie>h3>a,.albums>h3>a, .film>h3>a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #171515;
+}
+
+
+
+footer>h3 {
+    text-align: center;
+    font-family: Raleway;
+    color: white;
+    padding-top: 3%;
+}
+
+footer>a>img {
+    margin-top: -5%;
+}
+
+@media (min-width: 768px) {
+    .menu-phone {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .entete {
+        display: none;
+    }
+    .background {
+        display: none;
+    }
+
+
+}
+
+.bio, .discographie h2 {
+    margin-top: 11%;
+    padding: 5%;
+}
+
+
+.bio>h2, .discographie h2 {
+    font-size: 2.5em;
+    font-family: Raleway;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.bio>p {
+    font-size: 1.5em;
+    font-family: Raleway;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.button {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    margin-bottom: 10%;
+    margin-left: 35%;
+}
+
+
+body>a {
+    text-decoration: none;
+}
+
+.contacter {
+    margin-top: 20%;
+}
+
+.contacter>ul {
+    text-align: center;
+    font-size: 2em;
+}
+
+.contacter>ul>li {
+    font-family: Raleway;
+    margin-left: 10%;
+    list-style-type: none;
+
+}
+
+.button {
+    margin-top: 2%;
+}
+
+
+input, textarea {
+    font-family: Raleway;
+    border-radius: 9px;
+    width: 700px;
+    margin-left: -185px;
+    height: 50px;
+    margin-top: 1%;
+}
+
+textarea {
+    height: 9em;
+}
+
+.discographie {
+    margin-top: 15%;
+
+}
+
+.discographie>ul>li {
+    margin: 2%;
+}
+
+.discographie>ul {
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 20%;
+}
+
+figcaption {
+    color: white;
+    font-family: Raleway;
+
+}
+
+iframe {
+    text-align: center;
+    margin-left: 30%;
+
+}
+
+.nav-toggle {
+    width: 100px;
+    height: 120px;
+    position: fixed;
+    top: 21px;
+    right: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.nav-toggler-bar,
+.nav-toggler-bar::before,
+.nav-toggler-bar::after {
+    content: "";
+    background-color: #fffff0;
+    border-radius: 100px;
+    width: 100%;
+    height: 7px;
+    position: absolute;
+    left: 0;
+    transition: all .4s ease-in-out ;
+}
+
+.nav-toggler-bar::before {
+    top: -25px;
+}
+
+.nav-toggler-bar::after {
+    top: 25px;
+}
+
+.menu-open .nav-toggler-bar {
+    transform: rotate(135deg);
+    background-color: white;
+}
+
+.menu-open .nav-toggler-bar::before,
+.menu-open .nav-toggler-bar::after{
+    transform: rotate(90deg);
+    background-color: white;
+    top: 0;
+}
+
+
+
+
+/* Menu  */
+
+.menu {
+    background-color: #23365b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(113vw );
+    transition: all .4s;
+    z-index: 1;
+}
+
+.menu-open .menu {
+    transform: translateX(0);
+}
+
+.menu-open,
+.menu-open body {
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    text-transform: unset;
+}
+
+.menu li {
+    margin-bottom: 30px;
+    transform: translate(30px);
+    opacity: 0;
+    transition: all .1s ease;
+    font-family: "Archivo Black", sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 65px;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu-open .menu li {
+    opacity: 1;
+    font-size: 85px;
+}
+
+.menu-open .menu li:nth-child(n+1) {transition-delay: .25s;}
+.menu-open .menu li:nth-child(n+2) {transition-delay: .3s;}
+.menu-open .menu li:nth-child(n+3) {transition-delay: .35s;}
+.menu-open .menu li:nth-child(n+4) {transition-delay: .4s;}
+.menu-open .menu li:nth-child(n+5) {transition-delay: .45s;}
+.menu-open .menu li:nth-child(n+6) {transition-delay: .5s;}
